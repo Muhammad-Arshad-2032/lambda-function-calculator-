@@ -16,7 +16,7 @@ match char:
         y=int(input("Enter the second  value for subtarction"))
         print(multiplication(x,y))
     case 4:    
-        divsion=lambda x,y:x/y if y!=0 else " canot divsibale by zero "
+        divsion=lambda x,y:x/y if y!=0 else " canot divsibale by zero # if we write x//y it take the floor value
         x=int(input("Enter the first value for subtarction"))
         y=int(input("Enter the second  value for subtarction"))
         print(divsion(x,y))
